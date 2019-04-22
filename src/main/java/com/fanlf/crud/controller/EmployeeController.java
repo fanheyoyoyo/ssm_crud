@@ -53,7 +53,7 @@ public class EmployeeController {
 				del_ids.add(Integer.parseInt(id));			
 			}
 			employeeService.deleteBatch(del_ids);
-		}else{
+		}else{//this is a git branch test!
 			//µ¥Ò»É¾³ý 
 			Integer id = Integer.parseInt(ids);
 			employeeService.delEmp(id);
