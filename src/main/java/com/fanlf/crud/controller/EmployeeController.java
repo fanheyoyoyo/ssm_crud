@@ -54,7 +54,7 @@ public class EmployeeController {
 			}
 			employeeService.deleteBatch(del_ids);
 		}else{
-			//单一删除
+			//单一删除 
 			Integer id = Integer.parseInt(ids);
 			employeeService.delEmp(id);
 		}
